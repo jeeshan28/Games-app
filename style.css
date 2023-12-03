@@ -1,0 +1,704 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: #2A313B;
+}
+
+.nav1{
+    height: 10%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+.nav1 > h5{
+    color: gray;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+.nav1 > h5:hover{
+    color: white;
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.live{
+    height: 30px;
+    width: 60px;
+    border: none;
+    transition: 1s;
+    background-color: #EE145A;
+    color: white;
+}
+
+.live:hover{
+    border: none;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.ac{
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: #EE145A;
+    color: white;
+    transition: 1s;
+}
+
+.ac:hover{
+    border: none;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+}
+
+.left > h1{
+    color: white;
+    line-height: 60px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 13%;
+    font-size: 70px;
+}
+
+.left >h4{
+    margin-left: 10%;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.left >h5{
+    margin-left: 10%;
+    margin-top: 2%;
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+}
+
+.right > h1{
+    font-size: 180px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.342);
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.right >img{
+    margin-top: -50%;
+    height: 630px;
+    width: 300px;
+    margin-left: 30%;
+    filter: drop-shadow(0 0 20px #EE145A);
+}
+
+.left > .image{
+    width: 100%;
+    height: 20%;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image > .fiba, .pom{
+    height: 120px;
+    width: 120px;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+.pom{
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.938));
+}
+
+.image > .um{
+    margin-top: 10%;
+}
+
+.um > h4{
+    color: white;
+    font-weight: 400;
+}
+
+.um > h6{
+    color: rgb(148, 145, 145);
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.buttons{
+    margin-top: 8%;
+    margin-left: 10%;
+    
+}
+
+.buttons > .web{
+    height: 45px;
+    width: 160px;
+    background-color: #EE145A;
+    color: white;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+}
+ .buttons > .join{
+    height: 45px;
+    width: 160px;
+    background-color: transparent;
+    border: 1px solid #EE145A;
+    color: white;
+    cursor: pointer;
+    margin-left: 5%;
+    letter-spacing: 2px;
+ }
+
+  /* -----------------------page 1 close----------------------  */
+
+  .page2{
+    height: 100%;
+    width: 100%;
+    background-color: #2A313B;
+  }
+
+  .mid{
+    width: 100%;
+    height: 60%;
+  }
+
+  .mid > h1{
+    color: rgba(0, 0, 0, 0.205);
+    text-align: center;
+    padding-top: 5%;
+    font-size: 150px;
+  }
+
+  .img{
+    display: flex;
+    margin-top: -30%;
+
+  }
+
+  .left1 > .fb{
+    height: 520px;
+    width: 700px;
+    filter: drop-shadow(0 0 20px #EE145A);
+  }
+
+  .right1{
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .right1 > h1{
+    font-size: 80px;
+    color: white;
+    line-height: 75px;
+  }
+
+  .right1 > h6{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .right1 > p{
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 12px ;
+    margin-top: 2%;
+  }
+
+
+  .right1 > .web{
+    
+    height: 45px;
+    width: 160px;
+    background-color: #EE145A;
+    color: white;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 5%;
+  }
+
+  .right1 > .join{
+
+    height: 45px;
+    width: 160px;
+    background-color: transparent;
+    border: 1px solid #EE145A;
+    color: white;
+    cursor: pointer;
+    margin-left: 5%;
+    letter-spacing: 2px;
+
+  }
+
+.mid1{
+
+    height: 40%;
+    width: 50%;
+
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.images > .fiba, .pom{
+    height: 120px;
+    width: 120px;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+.mu > h4{
+    margin-top: 25%;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.mu > h6{
+    color: gray;
+    font-weight: 300;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+
+
+/* ---------------------page 2 close---------------------- */
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: #2A313B;
+}
+
+.prop{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.left2{
+    height: 100%;
+    width: 50%;
+}
+
+.right2{
+    height: 100%;
+    width: 50%;
+}
+
+.left2 > h1{
+    color: white;
+    line-height: 60px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 13%;
+    font-size: 70px;
+
+}
+
+.left2 >h4{
+    margin-left: 10%;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.left2 >h5{
+    margin-left: 10%;
+    margin-top: 2%;
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.right2 > .gym{
+    height: 700px;
+    width: 650px;
+    filter: drop-shadow(50px 80px  100px  #EE145A );
+    margin-top: -80%;
+}
+
+.right2 > h1{
+    font-size: 200px;
+    color: rgba(0, 0, 0, 0.103);
+}
+
+.image2{
+    display: flex;
+}
+
+.image2 > .logo, .vop{
+    height: 120px;
+    width: 120px;
+    margin-left: 5%;
+    margin-top: 5%;
+
+     
+}
+
+.button2 >.web{
+    height: 45px;
+    width: 160px;
+    background-color: #EE145A;
+    color: white;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+.button2 > .join{
+    height: 45px;
+    width: 160px;
+    background-color: transparent;
+    border: 1px solid #EE145A;
+    color: white;
+    cursor: pointer;
+    margin-left: 5%;
+    letter-spacing: 2px;
+
+}
+
+/* ---------------------page 3 close--------------------- */
+
+.page4{
+    height: 120%;
+    width: 100%;
+    background-color: #2A313B;
+}
+
+.text1{
+    margin-left: 15%;
+}
+
+.text1 > h1{
+    color: rgba(0, 0, 0, 0.295);
+    font-size: 150px;
+    letter-spacing: -20px;
+    
+}
+
+.text1 > h2{
+    font-size: 40px;
+    margin-top: -4%;
+    color: white;
+    margin-left: 1%;
+}
+
+.text1 > h4{
+    margin-left: 1%;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+.text1 >h6{
+    margin-left: 1%;
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.image3{
+    width: 60%;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.pic1, .pic2, .pic3{
+    height: 350px;
+    width: 250px;
+    background-image: linear-gradient( #ee145a, orange);
+    border: none;
+    border-radius: 10px;
+}
+
+.bike{
+    height: 200px;width: 200px;
+}
+ .bike{
+    margin-top: -20%;
+    filter: drop-shadow(0 0 20px black) ;
+ }
+
+.bat{
+    height: 250px;
+    width: 250px;
+    margin-top: -35%;
+    filter: drop-shadow(0 0 20px black);
+}
+
+.ball{
+    height: 400px;
+    width: 200px;
+    margin-top: -62%;
+    filter: drop-shadow(0 0 20px black);
+}
+
+.pic1 >h4, .pic2 >h4, .pic3 > h4{
+    color: white;
+    font-size: 30px;
+    margin-left: 25%;
+}
+
+.pic3 > h4{
+    margin-top: -30%;
+    font-weight: bold;
+}
+
+.pic1 > button, .pic2 > button, .pic3 > button{
+    height: 10%;
+    width: 50%;
+    margin-left:25%;
+    margin-top: 5%;
+    background-color: rgba(20, 18, 18, 0.932);
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+
+.footer{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(2, 2, 20);
+    display: flex;
+
+
+}
+
+.text3{
+    height: 100%;
+    width: 35%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.head > h5{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.head1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.head1 > h5{
+    color: white;
+    font-weight: 300;
+    margin-left: -2%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.head1 > span{
+    color: #EE145A;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+
+.head3{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 2%;
+    color: white;
+    
+}
+
+.head3 > h5{
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.text4{
+    height: 100%;
+    width: 35%;
+
+}
+
+.heding2 > h5, p{
+    color: white;
+
+
+}
+
+.heding2>h5{
+    margin-top: 2%;
+}
+
+.filler
+{
+    height: 100%;
+    width: 5%;
+}
+
+.text5{
+    height: 100%;
+    width: 30%;
+}
+
+.text5 > .twitter-icon{
+    color: royalblue;
+    margin-top: 5%;
+}
+
+.last{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(20, 20, 31);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icons{
+    height: 100%;
+    width: 33%;
+    text-align: center;
+    display: flex;
+    
+}
+
+.icons > .bird-icon, .fb-icon , .insta-icon, .in-icon{
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+.bird-icon{
+    color: royalblue;
+    transition: 1s;
+}
+
+.bird-icon:hover{
+    scale: 1.2;
+}
+
+
+.fb-icon{
+    color: blue;
+    transition: 1s;
+}
+
+.fb-icon:hover{
+    scale: 1.2;
+}
+
+.insta-icon{
+    color: #EE145A;
+    transition: 1s;
+}
+
+.insta-icon:hover{
+    scale: 1.2;
+}
+
+
+.in-icon{
+    color: navy;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.in-icon:hover{
+    scale: 1.2;
+}
+
+.copyright{
+    height: 100%;
+    width: 33%;
+
+}
+
+.policy{
+    height: 100%;
+    width: 33%;
+}
+
+.copyright > h5{
+    margin-top: 10%;
+    color: gray;
+    margin-left: 5%;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+
+.policy{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.8%;
+}
+
+.policy > h5{
+    color: gray;
+    font-weight: 300;
+    cursor: pointer;
+}
